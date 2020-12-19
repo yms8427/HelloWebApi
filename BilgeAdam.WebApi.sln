@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.WebApi", "BilgeAdam.WebApi\BilgeAdam.WebApi.csproj", "{14B5875D-AA2E-4766-B52D-621F07AFB423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.WebApi.ConsoleClient", "BilgeAdam.WebApi.ConsoleClient\BilgeAdam.WebApi.ConsoleClient.csproj", "{F62C5645-5C29-4CDA-8058-E89274BFE1CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.WebApi.VueClient", "BilgeAdam.WebApi.VueClient\BilgeAdam.WebApi.VueClient.csproj", "{E4E4DFB8-94EB-4B25-A3D7-0DA2390415AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.WebApi.Data", "BilgeAdam.WebApi.Data\BilgeAdam.WebApi.Data.csproj", "{7A17DADC-6F49-4560-AE97-5C1E3C1B038B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.WebApi.Contracts", "BilgeAdam.WebApi.Contracts\BilgeAdam.WebApi.Contracts.csproj", "{A20CC233-FE3C-424A-ADD9-84A6804A5424}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14B5875D-AA2E-4766-B52D-621F07AFB423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B5875D-AA2E-4766-B52D-621F07AFB423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B5875D-AA2E-4766-B52D-621F07AFB423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B5875D-AA2E-4766-B52D-621F07AFB423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62C5645-5C29-4CDA-8058-E89274BFE1CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62C5645-5C29-4CDA-8058-E89274BFE1CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62C5645-5C29-4CDA-8058-E89274BFE1CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62C5645-5C29-4CDA-8058-E89274BFE1CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4E4DFB8-94EB-4B25-A3D7-0DA2390415AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E4DFB8-94EB-4B25-A3D7-0DA2390415AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E4DFB8-94EB-4B25-A3D7-0DA2390415AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E4DFB8-94EB-4B25-A3D7-0DA2390415AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A17DADC-6F49-4560-AE97-5C1E3C1B038B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A17DADC-6F49-4560-AE97-5C1E3C1B038B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A17DADC-6F49-4560-AE97-5C1E3C1B038B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A17DADC-6F49-4560-AE97-5C1E3C1B038B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20CC233-FE3C-424A-ADD9-84A6804A5424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20CC233-FE3C-424A-ADD9-84A6804A5424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20CC233-FE3C-424A-ADD9-84A6804A5424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20CC233-FE3C-424A-ADD9-84A6804A5424}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {111CE55E-6798-4242-9DEC-50827765E122}
+	EndGlobalSection
+EndGlobal
