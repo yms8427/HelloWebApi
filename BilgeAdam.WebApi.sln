@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.WebApi", "BilgeAdam.WebApi\BilgeAdam.WebApi.csproj", "{14B5875D-AA2E-4766-B52D-621F07AFB423}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.WebApi", "BilgeAdam.WebApi\BilgeAdam.WebApi.csproj", "{14B5875D-AA2E-4766-B52D-621F07AFB423}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.WebApi.ConsoleClient", "BilgeAdam.WebApi.ConsoleClient\BilgeAdam.WebApi.ConsoleClient.csproj", "{F62C5645-5C29-4CDA-8058-E89274BFE1CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.WebApi.ConsoleClient", "BilgeAdam.WebApi.ConsoleClient\BilgeAdam.WebApi.ConsoleClient.csproj", "{F62C5645-5C29-4CDA-8058-E89274BFE1CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.WebApi.VueClient", "BilgeAdam.WebApi.VueClient\BilgeAdam.WebApi.VueClient.csproj", "{E4E4DFB8-94EB-4B25-A3D7-0DA2390415AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.WebApi.VueClient", "BilgeAdam.WebApi.VueClient\BilgeAdam.WebApi.VueClient.csproj", "{E4E4DFB8-94EB-4B25-A3D7-0DA2390415AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.WebApi.Data", "BilgeAdam.WebApi.Data\BilgeAdam.WebApi.Data.csproj", "{7A17DADC-6F49-4560-AE97-5C1E3C1B038B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.WebApi.Data", "BilgeAdam.WebApi.Data\BilgeAdam.WebApi.Data.csproj", "{7A17DADC-6F49-4560-AE97-5C1E3C1B038B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.WebApi.Contracts", "BilgeAdam.WebApi.Contracts\BilgeAdam.WebApi.Contracts.csproj", "{A20CC233-FE3C-424A-ADD9-84A6804A5424}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.WebApi.Contracts", "BilgeAdam.WebApi.Contracts\BilgeAdam.WebApi.Contracts.csproj", "{A20CC233-FE3C-424A-ADD9-84A6804A5424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.MvcClient", "BilgeAdam.MvcClient\BilgeAdam.MvcClient.csproj", "{10DC4986-AC20-46EB-9D1B-29050E22D166}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A20CC233-FE3C-424A-ADD9-84A6804A5424}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A20CC233-FE3C-424A-ADD9-84A6804A5424}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A20CC233-FE3C-424A-ADD9-84A6804A5424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10DC4986-AC20-46EB-9D1B-29050E22D166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10DC4986-AC20-46EB-9D1B-29050E22D166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10DC4986-AC20-46EB-9D1B-29050E22D166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10DC4986-AC20-46EB-9D1B-29050E22D166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

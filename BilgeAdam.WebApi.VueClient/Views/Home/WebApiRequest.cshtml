@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ana Sayfa</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/axios@0.21.0/dist/axios.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="d in dates">{{d}}</li>
+        </ul>
+    </div>
+    <script>
+        var instance = {
+            data: function () {
+                return {
+                    dates: []
+                }
+            },
+            mounted: function () {
+                var self = this;
+                setInterval(function () {
+                    axios.get("https://localhost:5001/api/time/utc").then(function (response) {
+                        self.dates.push(response.data);
+                    })
+                }, 1000);
+            }
+        };
+        Vue.createApp(instance).mount("#app");
+    </script>
+</body>
+</html>
