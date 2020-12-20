@@ -1,0 +1,53 @@
+﻿@model ProductViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-12">
+        @if (Model.ShowNew)
+        {
+            <div class="float-right">
+                <button class="btn btn-primary">Yeni Ürün</button>
+            </div>
+        }
+        @if (Model.HasProducts)
+        {
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Numara</th>
+                        <th>Adı</th>
+                        <th>Fiyatı</th>
+                        <th>Stok</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var p in Model.Products)
+                    {
+                        <tr>
+                            <td>@p.Id</td>
+                            <td>@p.Name</td>
+                            <td>@p.Price</td>
+                            <td>@p.Stock</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div class="float-right">
+                @if (Model.ShowPrevious)
+                {
+                    <button class="btn btn-secondary">&lt;&lt;</button>
+                }
+                @if (Model.ShowNext)
+                {
+                    <button class="btn btn-secondary">&gt;&gt;</button>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-warning">Daha fazla ürün görüntülenemiyor <button class="btn btn-primary">Listeyi Yenile</button></div>
+        }
+    </div>
+</div>

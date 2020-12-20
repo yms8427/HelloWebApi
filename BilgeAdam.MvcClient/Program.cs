@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace BilgeAdam.WebApi
+namespace BilgeAdam.MvcClient
 {
     public class Program
     {
@@ -18,11 +18,6 @@ namespace BilgeAdam.WebApi
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureLogging((ctx, logging) =>
-                {
-                    logging.AddConsole();
-                    logging.AddConfiguration(ctx.Configuration.GetSection("Logging"));
-                })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

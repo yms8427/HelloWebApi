@@ -40,8 +40,20 @@ namespace BilgeAdam.WebApi
             //services.Configure<Settings>(Configuration);
             var cnnStr = Configuration.GetSection("Database:ConnectionString").Value;
             services.AddDbContext<NorthwindContext>(builder => builder.UseSqlServer(cnnStr));
+            //services.AddScoped<NorthwindContext>((sp) =>
+            //{
+            //    var optionsBuilder = new DbContextOptionsBuilder();
+            //    optionsBuilder.UseSqlServer(cnnStr);
+            //    var options = optionsBuilder.Options;
+            //    return new NorthwindContext(options);
+            //});
             services.AddScoped<IProductService, ProductService>();
+            services.AddTransient<INumberService, NumberService>();
             services.AddControllers();
+
+            //services.AddSingleton();
+            //services.AddTransient();
+            //services.AddScoped();
         }
 
         public void Configure(IApplicationBuilder app)

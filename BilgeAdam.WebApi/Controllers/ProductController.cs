@@ -26,7 +26,7 @@ namespace BilgeAdam.WebApi.Controllers
             return service.GetProduct(id);
         }
 
-        //api/product/list?page=1&itemcount=10
+        //api/product/list?page=1&count=10
         [HttpGet("list")]
         public IEnumerable<ProductDto> List([FromQuery]int page, [FromQuery]int count)
         {
